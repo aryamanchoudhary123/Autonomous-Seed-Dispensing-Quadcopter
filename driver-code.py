@@ -5,7 +5,6 @@ import numpy as np
 import cv2
 import RPi.GPIO as GPIO
 import time
-from tensorflow.keras.models import load_model
 
 
 
@@ -49,13 +48,13 @@ if __name__ == "__main__":
     GPIO.setmode(GPIO.BOARD)
     GPIO.setup(11,GPIO.OUT)
     servo1 = GPIO.PWM(11,50)
-    model = load_model("resnet_model.h5")
+    model = tf.keras.models.load_model("newmodel")
     class_names = ['Cricket Field', 'Forest Land', 'Grass', 'Hard Sand', 'Road', 'Tiles']
 
     ideal_class = ['Cricket Field', 'Forest Land', 'Grass']
 
     print("takeoff in process")
-    time.sleep(5) # delay for takeoff
+    time.sleep(10) # delay for takeoff
     print("takeoff complete")
     for i in range(100):
         image_name="test_flight_1_{}.png".format(i)
