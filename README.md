@@ -51,7 +51,8 @@ With the increasing number of Forest Fires and Deforestation, the green cover of
 
 
 ## Final Product
-### The demo video of the project can be found on [youtube](https://www.youtube.com/watch?v=KUw-NEblgLw)
+### The flight video of the drone can be found on [youtube](https://www.youtube.com/watch?v=SkvT3k75jYc&t=55s)
+### The video explanation of the project can be found on [youtube](https://www.youtube.com/watch?v=KUw-NEblgLw&t=5s)
 ![Quadcopter Final Photo](https://github.com/aryamanchoudhary123/Autonomous-Seed-Dispensing-Quadcopter/blob/main/Images/drone-final.jpeg)
 
 ## Contributors 
